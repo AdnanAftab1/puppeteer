@@ -9,7 +9,7 @@
     "url": "https://github.com/puppeteer/puppeteer/tree/main/tools/eslint"
   },
   "scripts": {
-    "build": "wireit",
+    "build": "node init && wireit",
     "prepare": "wireit"
   },
   "wireit": {

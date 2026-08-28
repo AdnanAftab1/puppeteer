@@ -36,8 +36,8 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "build:docs": "wireit",
-    "build": "wireit",
+    "build:docs": "node init && wireit",
+    "build": "node init && wireit",
     "clean": "../../tools/clean.mjs",
     "postinstall": "node install.mjs",
     "prepack": "wireit",

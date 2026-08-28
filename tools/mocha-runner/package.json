@@ -7,7 +7,7 @@
   "description": "Mocha runner for Puppeteer",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "wireit",
+    "build": "node init && wireit",
     "test": "wireit",
     "clean": "../clean.mjs"
   },

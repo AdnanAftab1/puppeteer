@@ -3,9 +3,9 @@
   "version": "3.2.1",
   "description": "Download and launch browsers",
   "scripts": {
-    "build:docs": "wireit",
-    "build": "wireit",
-    "build:test": "wireit",
+    "build:docs": "node init && wireit",
+    "build": "node init && wireit",
+    "build:test": "node init && wireit",
     "clean": "../../tools/clean.mjs",
     "test": "wireit"
   },

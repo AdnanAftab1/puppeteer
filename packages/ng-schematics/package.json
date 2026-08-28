@@ -4,10 +4,10 @@
   "description": "Puppeteer Angular schematics",
   "type": "module",
   "scripts": {
-    "build": "wireit",
+    "build": "node init && wireit",
     "clean": "../../tools/clean.mjs",
-    "dev:test": "npm run test --watch",
-    "dev": "npm run build --watch",
+    "dev:test": "node init && npm run test --watch",
+    "dev": "node init && npm run build --watch",
     "unit": "wireit"
   },
   "wireit": {

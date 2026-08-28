@@ -7,7 +7,7 @@
   "description": "Documentation generator for Puppeteer",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "wireit",
+    "build": "node init && wireit",
     "clean": "../clean.mjs"
   },
   "wireit": {

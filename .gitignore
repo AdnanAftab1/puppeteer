@@ -26,14 +26,12 @@ website/versions.json
 website/versionsArchived.json
 
 # IDE Artifacts
-.vscode/*
 !.vscode/extensions.json
 !.vscode/*.template.json
 .devcontainer
 
 # Misc
 .DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -44,3 +42,4 @@ yarn-error.log*
 
 # Wireit
 .wireit
+config.bat

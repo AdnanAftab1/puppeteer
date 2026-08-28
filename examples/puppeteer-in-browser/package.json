@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf out && rollup -c && terser out/main.js --compress --mangle --output out/main.min.js && gzip -k --best -r -f out"
+    "build": "node init && rm -rf out && rollup -c && terser out/main.js --compress --mangle --output out/main.min.js && gzip -k --best -r -f out"
   },
   "keywords": [],
   "author": "",
