@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "wireit",
+    "build": "node init && wireit",
     "clean": "../../tools/clean.mjs",
     "test": "wireit",
     "test-ci": "mocha"

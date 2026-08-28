@@ -7,8 +7,8 @@
   },
   "type": "module",
   "scripts": {
-    "build": "wireit",
-    "build:tools": "wireit",
+    "build": "node init && wireit",
+    "build:tools": "node init && wireit",
     "check": "npm run check --workspaces --if-present",
     "clean": "npm run clean --workspaces --if-present",
     "debug": "mocha --inspect-brk",
